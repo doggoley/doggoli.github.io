@@ -1,6 +1,6 @@
-function doggoli(cb) {
+function andrija(cb) {
   var input = '';
-  var key = '68797171797673';
+  var key = '65786882737465';
   document.addEventListener('keydown', function (e) {
     input += ("" + e.keyCode);
     if (input === key) {
@@ -11,4 +11,4 @@ function doggoli(cb) {
   });
 }
 
-doggoli(function () { document.location.href="secrets/page.html";} )
+andrija(function () { document.location.href="secrets/page.html";} )
